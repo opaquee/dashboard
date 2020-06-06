@@ -1,0 +1,26 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/opaquee/dashboard.git",
+  "author": "<henrievjen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^16.9.35",
+    "@zeit/next-typescript": "^1.1.1",
+    "global": "^4.4.0",
+    "next": "^9.4.4",
+    "now": "^19.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "now-build": "next build"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "typescript": "^3.9.5"
+  }
+}
