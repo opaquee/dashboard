@@ -1,10 +1,8 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from 'react';
+import Layout from '../components/Layout';
 const Index: React.FunctionComponent = () => {
   return (
-    <Layout title="Home">
-      <h1>Hello Next.js 👋</h1>
-    </Layout>
+    <Layout></Layout>
   )
-}
-export default Index
+};
+export default Index;
